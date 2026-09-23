@@ -1,5 +1,6 @@
 package com.example.estadojetpackcompose
 
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -13,5 +14,8 @@ import androidx.compose.ui.unit.dp
 @Composable
 
 fun WellnessScreen(modifier: Modifier = Modifier) {
-  StatefulCounter(modifier)
+  Column(modifier = modifier) {
+    StatefulCounter()
+    WellnessTasksList()
+  }
 }
