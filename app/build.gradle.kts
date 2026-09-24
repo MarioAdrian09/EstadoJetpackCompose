@@ -53,4 +53,5 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
     implementation("com.mikepenz:iconics-core:5.3.3")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:{latest_version}")
 }
